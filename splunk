@@ -1,0 +1,14 @@
+I've set up the index and HEC in Splunk dev as follows:
+
+Index: k8s_non_prod
+
+HEC port: 8088     (btw the HEC was already configured using this port so no need for a new one)
+
+HEC URL: https://apanzhc10ap20dv.apac.ajgco.com:8088
+
+HEC Token: 250a9d67-f48b-43bb-9953-af1aabb7a53a 
+
+
+I've also created a new app called k8s_non_prod to store the HEC config in, along with any other Splunk config we might deploy later on
+
+Let me know if you have any problems talking to it.
